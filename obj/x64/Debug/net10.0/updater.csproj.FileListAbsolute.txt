@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\updater\bin\x64\Debug\net10.0\updater.exe
+C:\Users\User\source\repos\updater\bin\x64\Debug\net10.0\updater.deps.json
+C:\Users\User\source\repos\updater\bin\x64\Debug\net10.0\updater.runtimeconfig.json
+C:\Users\User\source\repos\updater\bin\x64\Debug\net10.0\updater.dll
+C:\Users\User\source\repos\updater\bin\x64\Debug\net10.0\updater.pdb
+C:\Users\User\source\repos\updater\obj\x64\Debug\net10.0\updater.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\updater\obj\x64\Debug\net10.0\updater.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\updater\obj\x64\Debug\net10.0\updater.AssemblyInfo.cs
+C:\Users\User\source\repos\updater\obj\x64\Debug\net10.0\updater.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\updater\obj\x64\Debug\net10.0\updater.dll
+C:\Users\User\source\repos\updater\obj\x64\Debug\net10.0\refint\updater.dll
+C:\Users\User\source\repos\updater\obj\x64\Debug\net10.0\updater.pdb
+C:\Users\User\source\repos\updater\obj\x64\Debug\net10.0\updater.genruntimeconfig.cache
+C:\Users\User\source\repos\updater\obj\x64\Debug\net10.0\ref\updater.dll
